@@ -129,7 +129,7 @@ public:
 
             int choice;
             cin >> choice;
-            cin.ignore(); // Clear buffer
+            cin.ignore(); // Clear Buffer
 
             if (choice == 1) {
                 cout << "\n== Rent a Car ==" << endl;
@@ -151,7 +151,7 @@ public:
                 cout << "Enter the number of days for rental: ";
                 int rentalDays;
                 cin >> rentalDays;
-                cin.ignore(); // Clear buffer
+                cin.ignore(); // Clear Buffer
 
                 Customer* newCustomer = new Customer("CUS" + to_string(customers.size() + 1), customerName);
                 addCustomer(newCustomer);
